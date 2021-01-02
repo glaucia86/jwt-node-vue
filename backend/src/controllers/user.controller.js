@@ -27,3 +27,7 @@ exports.registerNewUser = async (req, res) => {
     res.status(400).json({ err: err });
   }
 };
+
+exports.loginUser = async (req, res) => {};
+
+exports.returnUserProfile = async (req, res) => {};

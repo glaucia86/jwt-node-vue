@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicação que lida com JWT com Node + Vue + MongoDB",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon",
@@ -10,13 +10,14 @@
   },
   "keywords": [
     "nodejs",
-    "javascript",
-    "mongodb",
-    "express",
+    "api",
+    "jwt",
     "vue",
-    "github-actions",
-    "serverless",
-    "azure-web-statics"
+    "authentication",
+    "azure",
+    "express",
+    "mongodb",
+    "javascript"
   ],
   "author": "Glaucia Lemos <Twitter: @glaucia_lemos86>",
   "license": "MIT",

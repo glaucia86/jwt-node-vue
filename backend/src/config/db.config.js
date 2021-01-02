@@ -11,7 +11,7 @@ dotenv.config();
 
 module.exports = {
   local: {
-    localDatabaseUrl: process.env.DB_URI,
+    localDatabaseUrl: 'mongodb://localhost:27017/jwtAuthTestDb',
     secret: "password"
   }
 };

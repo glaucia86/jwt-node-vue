@@ -26,9 +26,9 @@ const userSchema = new Schema({
 });
 
 // ==> Esse método irá fazer o 'hash' da senha antes de salvar o modelo da classe 'User'
-userSchema.pre('save', async function() {
-  const user = this;
-  if (user.isModified("password")) {
+userSchema.pre('save', async function(next) {
+  const user = this;  
+    if (user.isModified('password')) {
     user.password = await bcrypt.hash(user.password, 8);
   }
   next();

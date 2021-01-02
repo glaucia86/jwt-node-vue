@@ -28,6 +28,7 @@
     "dotenv": "^8.2.0",
     "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.9",
     "morgan": "^1.10.0"

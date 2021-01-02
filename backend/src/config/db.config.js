@@ -5,13 +5,7 @@
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
-const dotenv = require('dotenv');
-
-dotenv.config();
-
 module.exports = {
-  local: {
-    localDatabaseUrl: 'mongodb://localhost:27017/jwtAuthTestDb',
-    secret: "password"
-  }
+  database: "mongodb://localhost:27017/authapp",
+  secret: "password"
 };

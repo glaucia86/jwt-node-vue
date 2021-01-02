@@ -13,6 +13,19 @@ const morgan = require('morgan');
 
 const app = express();
 
+// ==> Importar o arquivo: 'db.config.js'
+const database = require('./config/db.config'); // ==> aqui é conexão local: MongoDB
+
+mongoose.Promise = global.Promise;
+
+// ==> Conexão Base de Dados:
+mongoose.connect(database.local.localDatabaseUrl, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true  }).then(() => {
+  console.log('A Base de Dados foi conectada com sucesso!');
+}, (err) => {
+  console.log(`Erro ao conectar com a Base de Dados...: ${err}`);
+  process.exit();
+});
+
 // ==> Rotas da API:
 const index = require('./routes/index');
 // TODO: Declarar rota user.routes.js

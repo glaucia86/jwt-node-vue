@@ -5,7 +5,13 @@
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
+const dotenv = require('dotenv');
+
+dotenv.config();
+
 module.exports = {
-  database: "mongodb://localhost:27017/authapp",
-  secret: "password"
+  local: {
+    localUrlDatabse: process.env.DB_URI,
+    secret: 'password'
+  }  
 };

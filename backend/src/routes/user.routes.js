@@ -7,6 +7,7 @@
 
 const express = require('express');
 const router = express.Router();
+const auth = require('../config/auth.config');
 const userController = require('../controllers/user.controller');
 
 // ==> Rota responsável por Criar um novo 'User': (POST): localhost:3000/api/v1/register
@@ -16,6 +17,6 @@ router.post('/register', userController.registerNewUser);
 router.post('/login', userController.loginUser);
 
 // ==> Rota responsável por retornar o perfil/profile do 'User': (GET): localhost:3000/api/v1/userProfile
-router.get('/userProfile', userController.returnUserProfile); 
+router.get('/userProfile', auth, userController.returnUserProfile); 
 
 module.exports = router;

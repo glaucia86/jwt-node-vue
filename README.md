@@ -2,14 +2,14 @@
 
 [![C-pia-de-Tutorial-Node-js-Express-com-Docker-1.png](https://i.postimg.cc/CKLjkKzX/C-pia-de-Tutorial-Node-js-Express-com-Docker-1.png)](https://postimg.cc/WdCFPTmw)
 
-Repositorio responsável pelo video #1 da série Coding Stuff.
+Repositório responsável pelo primeiro projeto da série de vídeos: **Coding Stuff**.
 
 O objetivo da série é ensinar inúmeros tutoriais e projetos direto ao ponto no meu **[Canal do Youtube](https://bit.ly/youtube-canal-glaucialemos)**!
 
-Nessa primeira série do Coding Stuff! estaremos desenvolvendo uma aplicação E2E (desde o Back-End ao Front) de login e senha, a qual faremos uso do JWT e persistindo no MongoDb.
+Nesse primeiro projeto da série do **Coding Stuff!** vamos aprender um pouco sobre como podemos criar aplicações de autenticação usando o JWT com Node.js. Assim sendo, estaremos desenvolvendo uma aplicação E2E (desde o Back-End ao Front) de login e senha, a qual faremos uso do JWT e persistindo no MongoDb.
 Após isso, faremos o lado do client usando o Vue.Js.
 
-Ao término do projeto local, estaremos hospedando a aplicação no **[Azure](https://azure.microsoft.com/?WT.mc_id=javascript-12243-gllemos)**
+Ao término do projeto local, estaremos hospedando a aplicação no **[Azure](https://azure.microsoft.com/?WT.mc_id=javascript-12243-gllemos)** tanto no lado do server e client-side!
 
 ## 🚀 Recursos utilizados
 

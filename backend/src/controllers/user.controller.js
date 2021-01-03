@@ -44,6 +44,7 @@ exports.loginUser = async (req, res) => {
   }
 };
 
+// ==> Método responsável por retornar um determinado 'User'
 exports.returnUserProfile = async (req, res) => {
   await res.json(req.userData);
 };

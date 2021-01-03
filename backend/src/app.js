@@ -8,23 +8,10 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+const mongooseConnection = require('./config/mongooseConnection.config');
 const morgan = require('morgan');
 
 const app = express();
-
-// ==> Importar o arquivo: 'db.config.js'
-const database = require('./config/db.config'); // ==> aqui é conexão local: MongoDB
-
-mongoose.Promise = global.Promise;
-
-// ==> Conexão Base de Dados:
-mongoose.connect(database.local.localUrlDatabse, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true  }).then(() => {
-  console.log('A Base de Dados foi conectada com sucesso!');
-}, (err) => {
-  console.log(`Erro ao conectar com a Base de Dados...: ${err}`);
-  process.exit();
-});
 
 // ==> Rotas da API:
 const index = require('./routes/index');
@@ -35,6 +22,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 app.use(morgan('dev'));
 app.use(cors());
+
+// ==> Retornando a conexão via mongoose via external file usando 'app.set()' 
+app.set('mongoose connection', mongooseConnection);
 
 app.use(index);
 app.use('/api/v1/', userRoutes);

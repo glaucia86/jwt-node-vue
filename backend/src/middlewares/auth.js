@@ -1,5 +1,5 @@
 /**
- * file: src/config/auth.config.js
+ * file: src/middlewares/auth.js
  * description: arquivo responsável por confirmar se um determinado(a) 'User' tem autorização
  * acessar um determinado recurso.
  * data: 01/01/2021

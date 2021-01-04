@@ -43,8 +43,9 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 
 | Vídeo Aula | Descrição |
 |---|---|
-| **[Vídeo 1](https://youtu.be/XPkZP2KQtZI)** | Vídeo 1 - JWT + Node.js + MongoDB + Vue|
-| **[Vídeo 2](https://youtu.be/igw22ZmaGrc)** | Vídeo 2 - JWT + Node.js + MongoDB + Vue|
+| **[Vídeo 1](https://youtu.be/JmUSx5wXU68)** | Vídeo 1 - JWT + Node.js + MongoDB + Vue|
+| **[Vídeo 2]()** | Vídeo 2 - JWT + Node.js + MongoDB + Vue|
+
 ### **Front-End (Em breve)**
 
 | Vídeo Aula | Descrição |

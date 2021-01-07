@@ -8,8 +8,8 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const mongooseConnection = require('./config/mongooseConnection.config');
 const morgan = require('morgan');
+const mongooseConnection = require('./config/mongooseConnection.config');
 
 const app = express();
 
@@ -23,7 +23,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 app.use(morgan('dev'));
 app.use(cors());
 
-// ==> Retornando a conexão via mongoose via external file usando 'app.set()' 
+// ==> Retornando a conexão via mongoose via external file usando 'app.set()'
 app.set('mongoose connection', mongooseConnection);
 
 app.use(index);

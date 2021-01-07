@@ -43,8 +43,8 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 
 | Vídeo Aula | Descrição |
 |---|---|
-| **[Vídeo 1](https://youtu.be/JmUSx5wXU68)** | Vídeo 1 - JWT + Node.js + MongoDB + Vue|
-| **[Vídeo 2]()** | Vídeo 2 - JWT + Node.js + MongoDB + Vue|
+| **[Vídeo 01 - JWT + Node.js + MongoDB + Vue](https://youtu.be/JmUSx5wXU68)** | Estruturação do Projeto |
+| **[Vídeo 02 - JWT + Node.js + MongoDB + Vue](https://youtu.be/Vr-UMoAv8pk)** | Desenvolvimento da Rota Default da Api |
 
 ### **Front-End (Em breve)**
 
@@ -64,11 +64,16 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 
 Como dito durante as live codings, sempre estaremos citando links e recursos importantes que direcionarão para: documentações, cursos gratuitos, livros e conteúdos relacionados a Node.js & PostgreSQL. Abaixo, segue uma lista desses recursos, que são considerados leituras, cursos ou livros recomendados:
 
-- ✅ **[Curso Grátis de Criando Aplicações JavaScript com Node.js](https://docs.microsoft.com/learn/paths/build-javascript-applications-nodejs/?WT.mc_id=javascript-12243-gllemos)**
+- ✅ **[Curso Grátis de Criando Aplicações JavaScript com Node.js](http://bit.ly/2JN0874)**
+- ✅ **[Curso Grátis Azure Functions com Node](http://bit.ly/2LlgLHa)** 
+- ✅ **[Curso Grátis CosmosDB com Node](http://bit.ly/3nd3nT0)**   
+- ✅ **[Curso de Deploy Automático com SWA + GitHub Actions](http://bit.ly/3odzNxL)**  
 - ✅ **[Azure para devs JavaScript & Node.js](https://docs.microsoft.com/javascript/azure/?WT.mc_id=javascript-12243-gllemos&view=azure-node-latest)**
-- ✅ **[Documentação do Node.js usando o Vs Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial?WT.mc_id=javascript-12243-gllemos)**
-- ✅ **[Documentação do Node.js usando o Vs Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial?WT.mc_id=javascript-12243-gllemos)**
+- ✅ **[Documentação do Node.js usando o Vs Code](http://bit.ly/354hrYH)**
 - ✅ **[Depurando Aplicações Node com Vs Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging?WT.mc_id=javascript-12243-gllemos)**
+- ✅ **[Documentação do Vs Code com Vue](http://bit.ly/2MtXYtT)**  
+- ✅ **[Documentação Oficial do JWT](https://jwt.io/)**   
+- ✅ **[Documentação Oficial do ExpressJs](https://expressjs.com/pt-br/)**   
 
 ## ❓ Tenho Dúvidas... O que Faço?! 
 

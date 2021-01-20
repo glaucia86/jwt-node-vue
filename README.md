@@ -45,6 +45,7 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 |---|---|
 | **[Vídeo 01 - JWT + Node.js + MongoDB + Vue](https://youtu.be/JmUSx5wXU68)** | Estruturação do Projeto |
 | **[Vídeo 02 - JWT + Node.js + MongoDB + Vue](https://youtu.be/Vr-UMoAv8pk)** | Desenvolvimento da Rota Default da Api |
+| **[Vídeo 03 - JWT + Node.js + MongoDB + Vue](https://youtu.be/6u4aM2eT-gg)** | Criando a Conexão da Base de Dados |
 
 ### **Front-End (Em breve)**
 

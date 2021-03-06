@@ -47,7 +47,7 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 | **[Vídeo 02 - JWT + Node.js + MongoDB + Vue](https://youtu.be/Vr-UMoAv8pk)** | Desenvolvimento da Rota Default da Api |
 | **[Vídeo 03 - JWT + Node.js + MongoDB + Vue](https://youtu.be/6u4aM2eT-gg)** | Criando a Conexão da Base de Dados |
 | **[Vídeo 04 - JWT + Node.js + MongoDB + Vue](https://youtu.be/VGgseqbWEt8)** | Criando a Classe 'User' e as Regras de Negócio com JWT & BcryptJs |
-| **[Vídeo 05 - JWT + Node.js + MongoDB + Vue]()** | Criando a Conexão da Base de Dados |
+| **[Vídeo 05 - JWT + Node.js + MongoDB + Vue](https://youtu.be/-nRSKeT9OkE)** | Criando a Rota 'Register' e a Lógica na Controller |
 | **[Vídeo 06 - JWT + Node.js + MongoDB + Vue]()** | Criando a Conexão da Base de Dados |
 | **[Vídeo 07 - JWT + Node.js + MongoDB + Vue]()** | Criando a Conexão da Base de Dados |
 | **[Vídeo 08 - JWT + Node.js + MongoDB + Vue]()** | Criando a Conexão da Base de Dados |

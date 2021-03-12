@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Welcome to the Register Page!</h1>
+  <div class="row justify-content-center">
+    <h1>Register Page</h1>
   </div>
 </template>
 

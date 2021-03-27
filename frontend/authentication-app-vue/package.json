@@ -9,6 +9,19 @@
     "lint": "vue-cli-service lint",
     "lint-fix": "npm run lint --fix"
   },
+  "keywords": [
+    "nodejs",
+    "api",
+    "jwt",
+    "vue",
+    "authentication",
+    "azure",
+    "express",
+    "mongodb",
+    "javascript"
+  ],
+  "author": "Glaucia Lemos <Twitter: @glaucia_lemos86>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",

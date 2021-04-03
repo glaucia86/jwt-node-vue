@@ -70,6 +70,7 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 
 Como dito durante as live codings, sempre estaremos citando links e recursos importantes que direcionarão para: documentações, cursos gratuitos, livros e conteúdos relacionados a Node.js & PostgreSQL. Abaixo, segue uma lista desses recursos, que são considerados leituras, cursos ou livros recomendados:
 
+- ✅ **[Curso Grátis de Vue.Js - Microsoft Learn](https://bit.ly/2PoJVI9)**
 - ✅ **[Curso Grátis de Criando Aplicações JavaScript com Node.js](http://bit.ly/2JN0874)**
 - ✅ **[Curso Grátis Azure Functions com Node](http://bit.ly/2LlgLHa)** 
 - ✅ **[Curso Grátis CosmosDB com Node](http://bit.ly/3nd3nT0)**   

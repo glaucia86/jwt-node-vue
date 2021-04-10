@@ -57,13 +57,12 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 | **[Vídeo 06 - JWT + Node.js + MongoDB + Vue](https://youtu.be/_-3DWpuXXvU)** | Criando a Rota Aprendendo a Depurar a API no Vs Code |
 | **[Vídeo 07 - JWT + Node.js + MongoDB + Vue](https://youtu.be/OckHsZPIRrQ)** | Desenvolvendo o middleware 'Auth' |
 | **[Vídeo 08 - JWT + Node.js + MongoDB + Vue](https://youtu.be/6fUcm4aSEjM)** | Desacoplamento de Responsabilidade e Ajustes Importantes no Código |
-| **[Vídeo 09 - JWT + Node.js + MongoDB + Vue](https://youtu.be/PH-kSpoEpYI)** | Iniciando o Projeto no lado do Front-End com Vue.Js |
 
 ### **Front-End (Em breve)**
 
 | Vídeo Aula | Descrição |
 |---|---|
-| **[EM BREVE]()** | Vídeo EM BREVE |
+| **[Vídeo 09 - JWT + Node.js + MongoDB + Vue](https://youtu.be/PH-kSpoEpYI)** | Iniciando o Projeto no lado do Front-End com Vue.Js |
 | **[EM BREVE]()** | Vídeo EM BREVE |
 
 ### **Migração para Nuvem (Em breve)**

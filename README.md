@@ -64,6 +64,9 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 |---|---|
 | **[Vídeo 09 - JWT + Node.js + MongoDB + Vue](https://youtu.be/PH-kSpoEpYI)** | Iniciando o Projeto no lado do Front-End com Vue.Js |
 | **[EM BREVE]()** | Vídeo EM BREVE |
+| **[EM BREVE]()** | Vídeo EM BREVE |
+| **[EM BREVE]()** | Vídeo EM BREVE |
+| **[EM BREVE]()** | Vídeo EM BREVE |
 
 ### **Migração para Nuvem (Em breve)**
 

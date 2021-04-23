@@ -14,6 +14,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'vue/no-unused-components': 'off',
     'no-unresolved': 'off',
+    'no-empty-function': 'off',
     'no-unused-vars': 'off',
     'no-unused-expressions': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',

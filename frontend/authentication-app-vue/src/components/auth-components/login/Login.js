@@ -17,7 +17,9 @@ export default {
     };
   },
   methods: {
-    async loginSubmitUserForm() {
+    loginSubmitUserForm() {},
+
+    async submitLoginUser() {
 
     },
   },

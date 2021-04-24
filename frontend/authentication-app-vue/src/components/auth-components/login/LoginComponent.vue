@@ -5,7 +5,7 @@
         <form
           class="text-center border border-primary p-5"
           style="margin-top:70px;height:auto;padding-top:100px !important;"
-          @submit.prevent="loginSubmitUserForm"
+          v-on:submit.prevent="loginSubmitUserForm()"
         >
         <!--INÍCIO BLOCO: E-mail-->
         <input
@@ -33,7 +33,7 @@
         </p>
         <!--INÍCIO BLOCO: Botão-->
         <center>
-          <button class="btn btn-primary btn-block w-75 my-4" type="submit">
+          <button @click="submitLoginUser" class="btn btn-primary btn-block w-75 my-4">
             Entrar
           </button>
         </center>

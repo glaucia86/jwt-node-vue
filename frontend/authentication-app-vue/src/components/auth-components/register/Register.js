@@ -6,6 +6,8 @@
  * author: Glaucia Lemos <twitter: @glaucia_lemos86>
  */
 
+import { required } from 'vuelidate/lib/validators';
+
 export default {
   name: 'RegisterComponent',
   data() {
@@ -15,13 +17,30 @@ export default {
         email: '',
         password: '',
       },
+      isSubmitted: false,
     };
   },
+  validations: {
+    registerForm: {
+      name: { required },
+      email: { required },
+      password: { required },
+    },
+  },
   methods: {
-    registerSubmitUserForm() {},
+    registerSubmitUserForm() {
+      this.isSubmitted = true;
+
+      this.$v.$touch();
+
+      if (this.$v.$invalid) {
+        return;
+      }
+
+      alert('SUCCESS!' + JSON.stringify(this.registerForm));
+    },
 
     async submitRegisterUser() {
-
     },
   },
 };

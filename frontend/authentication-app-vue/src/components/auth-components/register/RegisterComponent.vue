@@ -8,36 +8,57 @@
           v-on:submit.prevent="registerSubmitUserForm()"
         >
         <!--INÍCIO BLOCO: Nome-->
-        <input
-          type="text"
-          id="name"
-          name="name"
-          class="form-control mb-5"
-          placeholder="Inclua seu Nome"
-          v-model="registerForm.name"
+        <div class="form-group">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-control mb-5"
+            placeholder="Inclua seu Nome"
+            v-model="registerForm.name"
+            :class="{ 'is-invalid': isSubmitted && $v.registerForm.name.$error }"
         />
+          <div
+            v-if="isSubmitted && !$v.registerForm.name.required"
+            class="invalid-feedback"> O campo nome é obrigatório!
+          </div>
+        </div>
         <!--FIM BLOCO: Nome-->
 
         <!--INÍCIO BLOCO: E-mail-->
-        <input
-          type="text"
-          id="email"
-          name="email"
-          class="form-control mb-5"
-          placeholder="Inclua seu E-mail"
-          v-model="registerForm.email"
+        <div class="form-group">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            class="form-control mb-5"
+            placeholder="Inclua seu E-mail"
+            v-model="registerForm.email"
+            :class="{ 'is-invalid': isSubmitted && $v.registerForm.email.$error }"
         />
+          <div
+            v-if="isSubmitted && !$v.registerForm.email.required"
+            class="invalid-feedback"> O campo e-mail é obrigatório!
+          </div>
+        </div>
         <!--FIM BLOCO: E-mail-->
 
         <!--INÍCIO BLOCO: Password-->
-        <input
-          type="text"
-          id="password"
-          name="password"
-          class="form-control mb-5"
-          placeholder="Inclua a Senha"
-          v-model="registerForm.password"
+        <div class="form-group">
+          <input
+            type="text"
+            id="password"
+            name="password"
+            class="form-control mb-5"
+            placeholder="Inclua a Senha"
+            v-model="registerForm.password"
+            :class="{ 'is-invalid': isSubmitted && $v.registerForm.password.$error }"
         />
+          <div
+            v-if="isSubmitted && !$v.registerForm.email.required"
+            class="invalid-feedback"> O campo e-mail é obrigatório!
+          </div>
+        </div>
         <!--FIM BLOCO: Password-->
         <p class="center">
           Já possui um login cadastrado?<router-link to="/"> Faça o Login Aqui</router-link>

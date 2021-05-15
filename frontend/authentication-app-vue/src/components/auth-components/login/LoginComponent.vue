@@ -28,7 +28,7 @@
         <!--INÍCIO BLOCO: Password-->
         <div class="form-group">
           <input
-            type="text"
+            type="password"
             id="password"
             name="password"
             class="form-control mb-5"

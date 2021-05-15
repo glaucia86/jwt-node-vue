@@ -16,6 +16,9 @@
     },
     "rules": {
       "no-console": "off",
-      "max-len": "off"
+      "max-len": "off",
+      "func-names": "off",
+      "no-underscore-dangle": "off",
+      "no-use-before-define": "off"
     }
 }

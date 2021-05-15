@@ -18,8 +18,8 @@ export default {
   async registerNewUser(newUser) {
     try {
       const response = await Api().post('/register', newUser);
-      console.log(response);
       const { token } = response.data;
+
       if (token) {
         localStorage.setItem('jwt', token);
         swal({
@@ -27,15 +27,14 @@ export default {
           text: 'Usuário(a) cadastrado com sucesso!',
           icon: 'success',
         });
-      } else {
-        swal({
-          title: 'Oops!',
-          text: 'Alguma coisa deu errado aqui!',
-          icon: 'error',
-        });
       }
-    } catch (err) {
-      console.log(err);
+    } catch (error) {
+      swal({
+        title: 'Oops!',
+        text: 'Alguma coisa deu errado aqui!',
+        icon: 'error',
+      });
+      console.log(error.response.data);
     }
   },
 };

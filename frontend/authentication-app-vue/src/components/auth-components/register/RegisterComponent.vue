@@ -28,7 +28,7 @@
         <!--INÍCIO BLOCO: E-mail-->
         <div class="form-group">
           <input
-            type="text"
+            type="email"
             id="email"
             name="email"
             class="form-control mb-5"
@@ -46,7 +46,7 @@
         <!--INÍCIO BLOCO: Password-->
         <div class="form-group">
           <input
-            type="text"
+            type="password"
             id="password"
             name="password"
             class="form-control mb-5"

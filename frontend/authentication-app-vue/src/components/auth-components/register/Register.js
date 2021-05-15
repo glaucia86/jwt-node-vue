@@ -48,13 +48,13 @@ export default {
 
         await RegisterService.registerNewUser(this.registerForm);
         this.$router.push('/');
-      } catch (err) {
-        const error = err.response;
-        if (error.status === 409) {
-          swal('Error', error.data.message, 'error');
-        } else {
-          swal('Error', error.data.err.message, 'error');
-        }
+      } catch (error) {
+        swal({
+          title: 'Oops!',
+          text: 'Alguma coisa deu errado aqui!',
+          icon: 'error',
+        });
+        console.log(error.response.data);
       }
     },
   },

@@ -6,16 +6,18 @@
  * author: Glaucia Lemos <twitter: @glaucia_lemos86>
  */
 
+import swal from 'sweetalert';
 import { required } from 'vuelidate/lib/validators';
+import RegisterService from '@/services/RegisterService';
 
 export default {
   name: 'RegisterComponent',
   data() {
     return {
       registerForm: {
-        name: '',
-        email: '',
-        password: '',
+        name: null,
+        email: null,
+        password: null,
       },
       isSubmitted: false,
     };
@@ -28,19 +30,32 @@ export default {
     },
   },
   methods: {
-    registerSubmitUserForm() {
-      this.isSubmitted = true;
-
-      this.$v.$touch();
-
-      if (this.$v.$invalid) {
-        return;
-      }
-
-      alert('SUCCESS!' + JSON.stringify(this.registerForm));
-    },
+    registerSubmitUserForm() {},
 
     async submitRegisterUser() {
+      try {
+        this.isSubmitted = true;
+
+        this.$v.$touch();
+        if (this.$v.$invalid) {
+          swal({
+            title: 'Oops!',
+            text: 'Você precisa incluir todos os campos obrigatórios',
+            icon: 'error',
+          });
+          return;
+        }
+
+        await RegisterService.registerNewUser(this.registerForm);
+        this.$router.push('/');
+      } catch (err) {
+        const error = err.response;
+        if (error.status === 409) {
+          swal('Error', error.data.message, 'error');
+        } else {
+          swal('Error', error.data.err.message, 'error');
+        }
+      }
     },
   },
 };

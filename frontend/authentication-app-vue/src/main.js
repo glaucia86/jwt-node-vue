@@ -1,3 +1,11 @@
+/**
+ * file: src/main.js
+ * data: 19/05/2021
+ * description: arquivo responsável e principal onde se executa a aplicação
+ * no client-side (Front-End)
+ * author: Glaucia Lemos <twitter: @glaucia_lemos86>
+ */
+
 import Vue from 'vue';
 import Vuelidate from 'vuelidate';
 

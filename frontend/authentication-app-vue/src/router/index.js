@@ -1,3 +1,11 @@
+/**
+ * file: src/router/index.js
+ * data: 19/05/2021
+ * description: arquivo responsável por lidar com as rotas da aplicação
+ * no client-side (Front-End)
+ * author: Glaucia Lemos <twitter: @glaucia_lemos86>
+ */
+
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import NProgress from 'nprogress';

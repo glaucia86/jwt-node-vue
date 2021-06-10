@@ -29,10 +29,11 @@ export default {
       }
     } catch (error) {
       swal({
-        title: "Oops - 2!",
+        title: "Oops!",
         text: "Alguma coisa deu errado aqui!",
         icon: "error"
       });
+      this.$router.push("/");
     }
   }
 };

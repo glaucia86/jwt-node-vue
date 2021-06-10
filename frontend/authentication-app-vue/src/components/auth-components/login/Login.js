@@ -51,7 +51,6 @@ export default {
           text: 'Alguma coisa deu errado aqui!',
           icon: 'error',
         });
-        console.log(error.response);
       }
     },
   },

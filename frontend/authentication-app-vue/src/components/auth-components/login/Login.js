@@ -5,26 +5,26 @@
  * author: Glaucia Lemos <twitter: @glaucia_lemos86>
  */
 
-import swal from "sweetalert";
-import { required } from "vuelidate/lib/validators";
-import LoginService from "@/services/LoginService";
+import swal from 'sweetalert';
+import { required } from 'vuelidate/lib/validators';
+import LoginService from '@/services/LoginService';
 
 export default {
-  name: "LoginComponent",
+  name: 'LoginComponent',
   data() {
     return {
       loginForm: {
         email: null,
-        password: null
+        password: null,
       },
-      isSubmitted: false
+      isSubmitted: false,
     };
   },
   validations: {
     loginForm: {
       email: { required },
-      password: { required }
-    }
+      password: { required },
+    },
   },
   methods: {
     loginSubmitUserForm() {},
@@ -36,22 +36,22 @@ export default {
         this.$v.$touch();
         if (this.$v.$invalid) {
           swal({
-            title: "Oops!",
-            text: "Você precisa incluir todos os campos obrigatórios!",
-            icon: "error"
+            title: 'Oops!',
+            text: 'Você precisa incluir todos os campos obrigatórios!',
+            icon: 'error',
           });
           return;
         }
 
         await LoginService.loginUser(this.loginForm);
-        this.$router.push("/home");
+        this.$router.push('/home');
       } catch (error) {
         swal({
-          title: "Senha Incorreta!",
-          text: "Digite a senha cadastrada!",
-          icon: "error"
+          title: 'Senha Incorreta!',
+          text: 'Digite a senha cadastrada!',
+          icon: 'error',
         });
       }
-    }
-  }
+    },
+  },
 };

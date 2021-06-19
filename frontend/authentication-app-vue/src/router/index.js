@@ -6,34 +6,37 @@
  * author: Glaucia Lemos <twitter: @glaucia_lemos86>
  */
 
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import NProgress from 'nprogress';
+import Vue from "vue";
+import VueRouter from "vue-router";
+import NProgress from "nprogress";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'login',
-    component: () => import('../components/auth-components/login/LoginComponent'),
+    path: "/",
+    name: "login",
+    component: () => import("../components/auth-components/login/LoginComponent")
   },
   {
-    path: '/home',
-    name: 'home',
-    component: () => import('../components/auth-components/home/HomeComponent'),
+    path: "/home",
+    name: "home",
+    component: () => import("../components/auth-components/home/HomeComponent"),
+    meta: {
+      requireAuth: true
+    }
   },
   {
-    path: '/register',
-    name: 'register',
-    component: () => import('../components/auth-components/register/RegisterComponent'),
-  },
+    path: "/register",
+    name: "register",
+    component: () => import("../components/auth-components/register/RegisterComponent")
+  }
 ];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 // Lógica inerente ao NProgress
@@ -44,6 +47,21 @@ router.beforeResolve((to, from, next) => {
     NProgress.start();
   }
   next();
+});
+
+// Lógica inerente ao realizar o 'Log out' remover o token no local Storage:
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(record => record.meta.requireAuth)) {
+    if (localStorage.getItem("jwt") == null) {
+      next({
+        path: "/"
+      });
+    } else {
+      next();
+    }
+  } else {
+    next();
+  }
 });
 
 router.afterEach((to, from) => {

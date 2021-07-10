@@ -63,7 +63,7 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 | Vídeo Aula | Descrição |
 |---|---|
 | **[Vídeo 09 - JWT + Node.js + MongoDB + Vue](https://youtu.be/PH-kSpoEpYI)** | Iniciando o Projeto no lado do Front-End com Vue.Js |
-| **[Vídeo 10](https://youtu.be/oLXCKIvOPK4)** | Criando e Organizando as pastas e arquivos no Projeto com Vue.js |
+| **[Vídeo 10 - JWT + Node.js + MongoDB + Vue](https://youtu.be/oLXCKIvOPK4)** | Criando e Organizando as pastas e arquivos no Projeto com Vue.js |
 | **[Vídeo 11]()** | Vídeo EM BREVE |
 | **[Vídeo 12]()** | Vídeo EM BREVE |
 | **[Vídeo 13]()** | Vídeo EM BREVE |

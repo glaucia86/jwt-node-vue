@@ -25,7 +25,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
-    "chokidar": "^2.1.8",
+    "chokidar": "^3.5.2",
     "core-js": "^3.6.5",
     "nprogress": "^0.2.0",
     "sweetalert": "^2.1.2",

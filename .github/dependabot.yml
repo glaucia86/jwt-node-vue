@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: 'npm'
-    directory: '/frontend/authentication-app-vue/package.json'
+    directory: '/frontend/authentication-app-vue/'
     schedule:
       interval: 'daily'

@@ -9,3 +9,8 @@ updates:
     directory: '/frontend/authentication-app-vue/'
     schedule:
       interval: 'daily'
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/backend/'
+    schedule:
+      interval: 'daily'

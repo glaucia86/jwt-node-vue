@@ -70,8 +70,8 @@ Abaixo seguem os links da cada vídeo da série do projeto realizados até o mom
 | **[Vídeo 14 - JWT + Node.js + MongoDB + Vue](https://youtu.be/UcKm1ADpWlQ)** | Desenvolvimento Lógica de validação com vuelidate - Tela de Login    |
 | **[Vídeo 15 - JWT + Node.js + MongoDB + Vue](https://youtu.be/cQxoBu2rexE)** | Desenvolvimento Lógica de validação com vuelidate - Tela de Cadastro |
 | **[Vídeo 16 - JWT + Node.js + MongoDB + Vue](https://youtu.be/hQaDG-oZQ_g)** | Integração do Back-End com Front da tela Register e uso do SweetAlert
-| **[Vídeo 17 - JWT + Node.js + MongoDB + Vue](https://youtu.be/XykcWilTg68)**                             | Integração do Back-End com Front da tela LOGIN                                                       |
-| **[Vídeo 18 - JWT + Node.js + MongoDB + Vue](https://youtu.be/TmGnuRhX_hI)**                             | Finalização da aplicação no Front - Page Home                                                       |
+| **[Vídeo 17 - JWT + Node.js + MongoDB + Vue](https://youtu.be/XykcWilTg68)**   Integração do Back-End com Front da tela LOGIN                       |
+| **[Vídeo 18 - JWT + Node.js + MongoDB + Vue](https://youtu.be/TmGnuRhX_hI)** | Finalização da aplicação no Front - Page Home                        |
 
 ### **Migração para Nuvem (Em breve)**
 

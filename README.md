@@ -1,4 +1,4 @@
-# Série de Vídeos - Coding Stuff: Projeto #01 - Desenvolvendo Aplicação JWT com Node + MongoDB + Vue & Azure
+# Série de Vídeos - Coding Stuff: Projeto #01 - Desenvolvendo Aplicação JWT com Node + MongoDB + Vue
 
 [![C-pia-de-Tutorial-Node-js-Express-com-Docker-1.png](https://i.postimg.cc/CKLjkKzX/C-pia-de-Tutorial-Node-js-Express-com-Docker-1.png)](https://postimg.cc/WdCFPTmw)
 
